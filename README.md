@@ -3,7 +3,7 @@
 > A professional ordering website built for **Kota King**, a local fast food shop
 > in Ga-Thoka, Polokwane, Limpopo — built as part of the **Future Interns** internship programme.
 
- 🔗 **Live site** https://yourusername.github.io/kota-king 
+ 🔗 **Live site** https://noluthando-2018.github.io/FUTURE_FS_03/
 
 ---
 
@@ -256,6 +256,6 @@ const FATCAKE_PRICE          = 2;    // price per fatcake
 
 ## 👩‍💻 Developer
 
-| 📁 **GitHub repo** | https://github.com/yourusername/kota-king |
+| 📁 **GitHub repo** | https://github.com/Noluthando-2018/FUTURE_FS_03 |
 | 👩‍💻 **Developer** | Noluthando Vutomi Sekhula |
 
