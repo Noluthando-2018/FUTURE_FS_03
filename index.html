@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kota King — Real Kasi Flavour</title>
+  <meta name="description" content="Kota King — The best kotas and fatcakes in Ga-Thoka, Polokwane. Order online via WhatsApp. Fresh ingredients, real prices.">
+  <meta name="keywords" content="kota, fatcakes, Polokwane, Ga-Thoka, kasi food, order online">
+  <meta property="og:title" content="Kota King — Real Kasi Flavour">
+  <meta property="og:description" content="The best kotas and fatcakes in Polokwane. Order via WhatsApp.">
+  <meta property="og:image" content="images/kota.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍔</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="icon-fire" viewBox="0 0 24 24"><path d="M13 2s1 3-1 5-3 3-3 6a5 5 0 0 0 10 0c0-3-2-5-4-7 .3 2-.6 3-2 4 0-3-1-5-4-8 0 0-3 3-3 8a8 8 0 0 0 16 0c0-4-2-8-9-8Z" fill="currentColor"/></symbol>
+    <symbol id="icon-map-pin" viewBox="0 0 24 24"><path d="M12 22s7-6 7-12a7 7 0 1 0-14 0c0 6 7 12 7 12Zm0-9.5A2.5 2.5 0 1 0 12 7a2.5 2.5 0 0 0 0 5.5Z" fill="currentColor"/></symbol>
+    <symbol id="icon-burger" viewBox="0 0 24 24"><path d="M5 10a7 7 0 0 1 14 0H5Zm-1 3h16a2 2 0 0 1 0 4H4a2 2 0 0 1 0-4Zm2 6h12v2H6v-2Z" fill="currentColor"/></symbol>
+    <symbol id="icon-donut" viewBox="0 0 24 24"><path d="M12 4a8 8 0 1 0 8 8 8 8 0 0 0-8-8Zm0 11a3 3 0 1 1 3-3 3 3 0 0 1-3 3Z" fill="currentColor"/></symbol>
+    <symbol id="icon-fries" viewBox="0 0 24 24"><path d="M7 3h3l-1 7H6L7 3Zm4 0h3v7h-3V3Zm4 0h3l1 7h-3l-1-7ZM5 10h14l-1 10H6L5 10Z" fill="currentColor"/></symbol>
+    <symbol id="icon-cart" viewBox="0 0 24 24"><path d="M3 5h2l2.2 9.5A2 2 0 0 0 9.1 16H18a2 2 0 0 0 1.9-1.4L22 8H8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="20" r="1.8" fill="currentColor"/><circle cx="18" cy="20" r="1.8" fill="currentColor"/></symbol>
+    <symbol id="icon-hand" viewBox="0 0 24 24"><path d="M8 11V5a1 1 0 1 1 2 0v5m0 0V4a1 1 0 1 1 2 0v6m0 0V5a1 1 0 1 1 2 0v6m0 0V7a1 1 0 1 1 2 0v7c0 4-2 7-6 7s-6-3-6-7v-3a1 1 0 1 1 2 0v2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-leaf" viewBox="0 0 24 24"><path d="M19 3C10 3 5 8 5 15a6 6 0 0 0 11 3c2-3 3-7 3-15Z" fill="currentColor"/><path d="M8 16c3-2 5-4 8-8" fill="none" stroke="#1a1208" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="icon-coins" viewBox="0 0 24 24"><ellipse cx="12" cy="7" rx="6.5" ry="3.5" fill="currentColor"/><path d="M5.5 7v4c0 1.9 2.9 3.5 6.5 3.5s6.5-1.6 6.5-3.5V7" fill="currentColor" opacity=".75"/><path d="M5.5 11v4c0 1.9 2.9 3.5 6.5 3.5s6.5-1.6 6.5-3.5v-4" fill="currentColor" opacity=".55"/></symbol>
+    <symbol id="icon-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z" fill="currentColor"/></symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24"><path d="M6.6 4h3L11 8l-2 2a15 15 0 0 0 5 5l2-2 4 1.4v3A2.6 2.6 0 0 1 17.4 20C10.6 20 4 13.4 4 6.6A2.6 2.6 0 0 1 6.6 4Z" fill="currentColor"/></symbol>
+    <symbol id="icon-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3Z" fill="currentColor"/><path d="M16.8 14.7c-.2.5-1.1 1-1.5 1.1-.4.1-.9.2-1.4 0-.3-.1-.8-.2-1.4-.5-2.5-1.1-4.1-3.8-4.2-4-.1-.2-1-1.3-1-2.5s.6-1.8.8-2c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .5.4l.7 1.8c.1.2.1.4 0 .6l-.3.5c-.1.2-.2.3-.1.5.1.2.5.9 1.2 1.5.8.7 1.5 1 1.7 1.1.2.1.4.1.5-.1l.7-.8c.2-.2.4-.2.6-.1l1.8.8c.2.1.4.2.4.4.1.2.1 1-.1 1.5Z" fill="#fff"/></symbol>
+    <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-tag" viewBox="0 0 24 24"><path d="M12 2H7a2 2 0 0 0-2 2v5l8 8a3 3 0 0 0 4.2 0l3-3A3 3 0 0 0 20 10l-8-8Zm-4 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" fill="currentColor"/></symbol>
+    <symbol id="icon-moped" viewBox="0 0 24 24"><path d="M4 12h8l2-5h3l1 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="17" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="18" cy="17" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14 7h3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-history" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9 9 0 0 0-6.4 2.6L3 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 3v5h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 7v5l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-repeat" viewBox="0 0 24 24"><path d="M17 2l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 11V9a4 4 0 0 1 4-4h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 22l-4-4 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 13v2a4 4 0 0 1-4 4H3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">Kota King</div>
+    <ul class="nav-links">
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#deals">Deals</a></li>
+      <li><a href="#build">Order</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <svg class="icon icon-inline"><use href="#icon-fire"></use></svg>
+        Open Daily · 8am – 10pm
+      </div>
+      <h1>Real<span>Kasi Flavour</span></h1>
+      <div class="hero-location">
+        <svg class="icon icon-inline"><use href="#icon-map-pin"></use></svg>
+        Ga-Thoka, Polokwane
+      </div>
+      <p class="hero-sub">The best kotas and fatcakes in Polokwane. Fresh ingredients, stacked portions, prices that make sense.</p>
+      <div class="hero-promos">
+        <div class="hero-promo-pill"><svg class="icon icon-inline"><use href="#icon-moped"></use></svg> Free delivery over R50</div>
+        <div class="hero-promo-pill"><svg class="icon icon-inline"><use href="#icon-tag"></use></svg> Buy 2 kotas, get 1 fatcake free</div>
+      </div>
+      <div class="hero-buttons">
+        <a href="#build" class="btn-primary"><svg class="icon icon-inline"><use href="#icon-burger"></use></svg> Order Now</a>
+        <a href="#deals" class="btn-outline"><svg class="icon icon-inline"><use href="#icon-tag"></use></svg> View Deals</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOTICE BAR -->
+  <div class="notice-bar">
+    <div class="notice-inner">
+      <div class="notice-item">🛵 <strong>Free delivery</strong> on orders over R50 · R10 under</div>
+      <div class="notice-divider"></div>
+      <div class="notice-item">🏠 <strong>Collection</strong> — Ga-Thoka · Ready in 15 mins</div>
+      <div class="notice-divider"></div>
+      <div class="notice-item">🕐 <strong>Open daily</strong> — 8:00 AM to 10:00 PM</div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats">
+    <div class="stat"><div class="stat-num">20+</div><div class="stat-label">Kotas Daily</div></div>
+    <div class="stat"><div class="stat-num">5★</div><div class="stat-label">Rating</div></div>
+    <div class="stat"><div class="stat-num">R20</div><div class="stat-label">Kotas From</div></div>
+    <div class="stat"><div class="stat-num">4yrs</div><div class="stat-label">In the Community</div></div>
+  </div>
+
+  <!-- DEALS -->
+  <section class="deals-section" id="deals">
+    <span class="section-tag"><svg class="icon icon-inline"><use href="#icon-tag"></use></svg> Hot Deals</span>
+    <h2 class="section-title">Today's Specials</h2>
+    <p class="section-sub">Limited time deals — order now before they're gone!</p>
+    <div class="deals-grid">
+      <div class="deal-card deal-featured">
+        <div class="deal-badge">🔥 Deal of the Day</div>
+        <div class="deal-emoji">🍔🍩</div>
+        <div class="deal-title">Buy 2 Kotas, Get 1 Fatcake Free</div>
+        <div class="deal-desc">Order any 2 kotas and a free fatcake is added to your order automatically — no button needed!</div>
+        <div class="deal-timer-wrap"><svg class="icon icon-inline"><use href="#icon-clock"></use></svg> Offer ends in: <span class="deal-timer" id="dealTimer">--:--:--</span></div>
+        <button class="deal-btn" onclick="document.getElementById('build').scrollIntoView({behavior:'smooth'})">Order 2 Kotas to Unlock</button>
+      </div>
+      <div class="deal-card">
+        <div class="deal-badge deal-badge-green">🛵 Delivery</div>
+        <div class="deal-emoji">🛵</div>
+        <div class="deal-title">Free Delivery on Orders Over R50</div>
+        <div class="deal-desc">Spend R50 or more and we deliver for free. Under R50 is just R10 delivery fee.</div>
+        <div class="deal-progress-wrap">
+          <div class="deal-progress-label"><span id="deliveryProgressText">Add items to unlock</span></div>
+          <div class="deal-progress-bar"><div class="deal-progress-fill" id="deliveryProgressFill" style="width:0%"></div></div>
+        </div>
+        <button class="deal-btn deal-btn-green" onclick="document.getElementById('build').scrollIntoView({behavior:'smooth'})">Start Your Order</button>
+      </div>
+      <div class="deal-card">
+        <div class="deal-badge deal-badge-purple">💜 Discount</div>
+        <div class="deal-emoji">💰</div>
+        <div class="deal-title">10% Off Orders Over R100</div>
+        <div class="deal-desc">When your order hits R100 or more, you automatically get 10% off. The more you order, the more you save!</div>
+        <div class="deal-progress-wrap">
+          <div class="deal-progress-label"><span id="discountProgressText">Add items to unlock</span></div>
+          <div class="deal-progress-bar"><div class="deal-progress-fill deal-progress-fill-purple" id="discountProgressFill" style="width:0%"></div></div>
+        </div>
+        <button class="deal-btn deal-btn-purple" onclick="document.getElementById('build').scrollIntoView({behavior:'smooth'})">Start Your Order</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu" id="menu">
+    <span class="section-tag">Our Menu</span>
+    <h2 class="section-title">What We Serve</h2>
+    <p class="section-sub">Everything made fresh daily. Quarter loaf kotas, crispy fatcakes, golden fries.</p>
+    <h3 class="cat-title"><svg class="icon icon-inline"><use href="#icon-burger"></use></svg> Kotas</h3>
+    <p class="base-note-global">All kotas include: <strong>Quarter Loaf · Chips · Atchar · Polony</strong> (Beef, Chicken or Pork). Tap <em>Customise</em> to change.</p>
+    <div class="menu-grid" id="kotaGrid"></div>
+    <h3 class="cat-title"><svg class="icon icon-inline"><use href="#icon-donut"></use></svg> Fatcakes</h3>
+    <div class="menu-grid" id="fatcakesGrid"></div>
+    <h3 class="cat-title"><svg class="icon icon-inline"><use href="#icon-fries"></use></svg> Fries &amp; Drinks</h3>
+    <div class="menu-grid" id="friesDrinksGrid"></div>
+  </section>
+
+  <!-- BUILDER -->
+  <section class="builder" id="build">
+    <span class="section-tag">Build Your Own</span>
+    <h2 class="section-title">Build Your Order</h2>
+    <p class="section-sub">Tap a category to expand it. Add what you want, then check your cart below.</p>
+
+    <!-- PREVIOUS ORDERS -->
+    <div id="reorderSection" class="builder-block" style="display:none;">
+      <div class="reorder-header"><svg class="icon icon-inline"><use href="#icon-history"></use></svg> Recent Orders</div>
+      <div id="reorderList"></div>
+    </div>
+
+    <!-- POPULAR COMBOS -->
+    <div class="builder-block">
+      <div class="combos-header"><svg class="icon icon-inline"><use href="#icon-bolt"></use></svg> Popular Combos — One Tap Add</div>
+      <div class="combos-grid" id="combosGrid"></div>
+    </div>
+
+    <!-- ACCORDION -->
+    <div class="accordion" id="orderAccordion">
+      <div class="acc-panel" id="panelKotas">
+        <button class="acc-header" onclick="togglePanel('panelKotas')">
+          <div class="acc-header-left"><span class="acc-icon">🍔</span><div><div class="acc-title">Kotas</div><div class="acc-sub">Quick add or build custom</div></div></div>
+          <div class="acc-header-right"><span class="acc-count" id="countKotas"></span><svg class="icon acc-chevron"><use href="#icon-chevron"></use></svg></div>
+        </button>
+        <div class="acc-body"><div class="acc-body-inner" id="kotaBuilderContent"></div></div>
+      </div>
+
+      <div class="acc-panel" id="panelFatcakes">
+        <button class="acc-header" onclick="togglePanel('panelFatcakes')">
+          <div class="acc-header-left"><span class="acc-icon">🍩</span><div><div class="acc-title">Fatcakes</div><div class="acc-sub">R2 each</div></div></div>
+          <div class="acc-header-right"><span class="acc-count" id="countFatcakes"></span><svg class="icon acc-chevron"><use href="#icon-chevron"></use></svg></div>
+        </button>
+        <div class="acc-body"><div class="acc-body-inner" id="fatcakeBuilderContent"></div></div>
+      </div>
+
+      <div class="acc-panel" id="panelSides">
+        <button class="acc-header" onclick="togglePanel('panelSides')">
+          <div class="acc-header-left"><span class="acc-icon">🍟</span><div><div class="acc-title">Sides</div><div class="acc-sub">Fries, atchar, polony &amp; more</div></div></div>
+          <div class="acc-header-right"><span class="acc-count" id="countSides"></span><svg class="icon acc-chevron"><use href="#icon-chevron"></use></svg></div>
+        </button>
+        <div class="acc-body"><div class="acc-body-inner" id="sidesContent"></div></div>
+      </div>
+
+      <div class="acc-panel" id="panelDrinks">
+        <button class="acc-header" onclick="togglePanel('panelDrinks')">
+          <div class="acc-header-left"><span class="acc-icon">🥤</span><div><div class="acc-title">Drinks</div><div class="acc-sub">Coke, Fanta, Sprite &amp; more</div></div></div>
+          <div class="acc-header-right"><span class="acc-count" id="countDrinks"></span><svg class="icon acc-chevron"><use href="#icon-chevron"></use></svg></div>
+        </button>
+        <div class="acc-body"><div class="acc-body-inner" id="drinksContent"></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-grid">
+      <div class="about-text">
+        <span class="section-tag">Our Story</span>
+        <h2 class="section-title">From Ga-Thoka,<br>With Love</h2>
+        <p class="about-body">Kota King was born right here in Ga-Thoka, Polokwane. We started with one goal — feed our community with real food at real prices. No shortcuts, no freezer stuff. Every kota is stacked fresh, every fatcake is fried to order.</p>
+        <div class="about-feats">
+          <div class="about-feat"><div class="feat-icon"><svg class="icon"><use href="#icon-leaf"></use></svg></div><div class="feat-text"><h4>Fresh Every Morning</h4><p>We restock ingredients daily. No old stock, ever.</p></div></div>
+          <div class="about-feat"><div class="feat-icon"><svg class="icon"><use href="#icon-coins"></use></svg></div><div class="feat-text"><h4>Prices That Make Sense</h4><p>Kotas from R20. Fatcakes from R2. Real kasi prices.</p></div></div>
+          <div class="about-feat"><div class="feat-icon"><svg class="icon"><use href="#icon-bolt"></use></svg></div><div class="feat-text"><h4>Fast Service</h4><p>Order on WhatsApp, collect in minutes. No long waits.</p></div></div>
+        </div>
+      </div>
+      <div class="about-img-wrap"><img src="images/pic.jpg" alt="Kota King food"></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <span class="section-tag">Reviews</span>
+    <h2 class="section-title">What People Say</h2>
+    <div class="test-grid">
+      <div class="test-card"><div class="test-stars">★★★★★</div><p class="test-body">"Best kota in Polokwane hands down. The Stacker is unreal — I get it every Friday."</p><div class="test-author"><div class="test-avatar">TM</div><div><div class="test-name">Thabo M.</div><div class="test-loc">Ga-Thoka</div></div></div></div>
+      <div class="test-card"><div class="test-stars">★★★★★</div><p class="test-body">"The fatcakes are fire! My kids request them every weekend. Ready so fast when I order on WhatsApp."</p><div class="test-author"><div class="test-avatar">NK</div><div><div class="test-name">Nomsa K.</div><div class="test-loc">Polokwane</div></div></div></div>
+      <div class="test-card"><div class="test-stars">★★★★★</div><p class="test-body">"The King kota is not for the faint-hearted! Stacked to the top. Real food, real prices."</p><div class="test-author"><div class="test-avatar">SN</div><div><div class="test-name">Sipho N.</div><div class="test-loc">Seshego</div></div></div></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-grid">
+      <div class="contact-info-side">
+        <span class="section-tag">Find Us</span>
+        <h2 class="section-title">Visit Us or<br>Order Online</h2>
+        <div class="contact-info">
+          <div class="contact-row"><div class="c-icon"><svg class="icon"><use href="#icon-map-pin"></use></svg></div><div><div class="c-lbl">Address</div><div class="c-val">Ga-Thoka, Polokwane, Limpopo</div></div></div>
+          <div class="contact-row"><div class="c-icon"><svg class="icon"><use href="#icon-phone"></use></svg></div><div><div class="c-lbl">Phone</div><div class="c-val"><a href="tel:+27797604504">079 760 4504</a></div></div></div>
+          <div class="contact-row"><div class="c-icon"><svg class="icon"><use href="#icon-clock"></use></svg></div><div><div class="c-lbl">Hours</div><div class="c-val">Mon – Sun: 8:00 AM – 10:00 PM</div></div></div>
+          <div class="contact-row"><div class="c-icon"><svg class="icon"><use href="#icon-whatsapp"></use></svg></div><div><div class="c-lbl">WhatsApp Orders</div><div class="c-val"><a href="https://wa.me/27797604504" class="wa-link">Send us a message →</a></div></div></div>
+        </div>
+      </div>
+      <div class="map-box">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.505336193601!2d29.698029174093794!3d-23.907153474384707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6c98cd3e225e3%3A0x2a18e596aca2509e!2sBakgalaka%20Liquor%20restaurant!5e0!3m2!1sen!2str!4v1778476399086!5m2!1sen!2str"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 <span>Kota King</span> — Real Kasi Flavour · Ga-Thoka, Polokwane</p>
+  </footer>
+
+  <!-- STICKY CART BAR -->
+  <div class="cart-bar" id="cartBar" style="display:none;">
+    <button class="cart-bar-btn" onclick="openCart()">
+      <div class="cart-bar-left"><div class="cart-bar-badge" id="cartBarCount">0</div><span>View Order</span></div>
+      <div class="cart-bar-right"><span id="cartBarTotal">R0</span><svg class="icon icon-inline"><use href="#icon-chevron"></use></svg></div>
+    </button>
+  </div>
+
+  <!-- CART OVERLAY -->
+  <div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
+
+  <!-- CART DRAWER -->
+  <div class="cart-drawer" id="cartDrawer">
+    <div class="cart-drawer-handle"></div>
+    <div class="cart-drawer-header">
+      <div class="cart-drawer-title"><svg class="icon icon-inline"><use href="#icon-cart"></use></svg> Your Order</div>
+      <button class="cart-drawer-close" onclick="closeCart()"><svg class="icon"><use href="#icon-close"></use></svg></button>
+    </div>
+    <div class="cart-deal-status" id="cartDealStatus"></div>
+    <div class="cart-section-head"><span>Items</span><span id="cartItemsMeta">0 items</span></div>
+    <div class="cart-drawer-lines" id="cartLines">
+      <div class="cart-empty-state">
+        <div style="font-size:52px;margin-bottom:12px;">🍔</div>
+        <div style="font-size:16px;font-weight:800;color:var(--dark);margin-bottom:6px;">Your order is empty</div>
+        <div style="font-size:13px;color:#9a7050;">Add items from the menu above</div>
+      </div>
+    </div>
+    <div class="cart-discount-row" id="cartDiscountRow" style="display:none;">
+      <div class="cart-discount-label"><svg class="icon icon-inline" style="color:#25D366;"><use href="#icon-check"></use></svg> 10% discount applied</div>
+      <div class="cart-discount-val" id="cartDiscountVal"></div>
+    </div>
+    <div class="cart-delivery-row" id="cartDeliveryRow" style="display:none;">
+      <div class="cart-delivery-label">🛵 Delivery fee</div>
+      <div class="cart-delivery-val" id="cartDeliveryVal">R10</div>
+    </div>
+    <div class="cart-drawer-footer">
+      <div class="cart-footer-group">
+        <div class="cart-footer-label">Summary</div>
+        <div class="cart-total-row">
+          <div><span class="cart-total-lbl">Total</span><span class="cart-total-meta" id="cartTotalMeta">0 items</span></div>
+          <span class="cart-total-val" id="cartTotal">R0</span>
+        </div>
+        <div class="delivery-toggle" id="deliveryToggle">
+          <button class="delivery-toggle-btn active" id="btnCollection" onclick="setDeliveryType('collection')">🏠 Collection</button>
+          <button class="delivery-toggle-btn" id="btnDelivery" onclick="setDeliveryType('delivery')">🛵 Delivery</button>
+        </div>
+      </div>
+      <div class="cart-footer-group">
+        <div class="cart-footer-label">Customer Details</div>
+        <div class="cart-name-row">
+          <input class="cart-name-input" id="cartCustName" type="text" placeholder="Your name" oninput="syncName()">
+          <input class="cart-name-input" id="cartCustNote" type="text" placeholder="Special requests (optional)" oninput="syncNote()">
+          <div id="cartAddressWrap" style="display:none;">
+            <input class="cart-name-input cart-address-input" id="cartAddress" type="text" placeholder="📍 Your delivery address">
+          </div>
+        </div>
+        <div class="cart-action-row">
+          <button class="cart-wa-btn" id="cartWaBtn" onclick="sendWA()" disabled>
+            <svg class="icon icon-inline"><use href="#icon-whatsapp"></use></svg> Send Order
+          </button>
+          <button class="cart-reset-btn" onclick="resetOrder()">Clear</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
